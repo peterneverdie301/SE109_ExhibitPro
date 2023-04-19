@@ -1,0 +1,31 @@
+@use '@/scss/breakpoints' as *;
+
+.container-cover {
+   box-sizing: border-box;
+}
+
+.cover-image-list_item {
+   float: left;
+   width: 16.65%;
+   padding: 5px;
+   transition: opacity 0.3s ease;
+}
+
+.cover-image-list::after {
+   content: '';
+   display: table;
+   clear: both;
+}
+
+.cover-img {
+   display: block;
+}
+
+.cover-image-list_item:hover {
+   opacity: 0.8;
+}
+@include tablet {
+   .cover-image-list_item {
+      width: 33.33%;
+   }
+} ;
