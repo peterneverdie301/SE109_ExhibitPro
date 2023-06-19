@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const dotenv = require('dotenv').config({
    path: path.join(__dirname, '.env')
 })
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env, agrv) => {
    const isDev = agrv.mode === 'development'
@@ -57,8 +58,8 @@ module.exports = (env, agrv) => {
          }
       },
       output: {
-         path: path.resolve('build'),
-         publicPath: '/build/',
+         path: path.resolve('public/dist'), // ->>>>>
+         publicPath: '/dist/',
          filename: 'bundle.js',
          environment: {
             arrowFunction: false,
