@@ -57,8 +57,8 @@ module.exports = (env, agrv) => {
          }
       },
       output: {
-         path: path.resolve('public/dist'),
-         publicPath: '/dist/',
+         path: path.resolve('build'),
+         publicPath: '/build/',
          filename: 'bundle.js',
          environment: {
             arrowFunction: false,
