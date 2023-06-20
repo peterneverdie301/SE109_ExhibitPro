@@ -39,6 +39,8 @@ function ProductDetailPage(props) {
       ; (async () => {
          try {
             const res = await productApi.getProduct(productId)
+            console.log("res: ", res)
+            console.log("res.data: ", res.data)
             setProductData(res.data)
 
             const payload = {

@@ -16,26 +16,17 @@ const ReviewList = ({ reviews }) => {
                      alignItems: 'center'
                   }}
                >
-                  {review.sender.name ? (
-                     <Avatar
-                        variant="rounded"
-                        alt=""
-                        sx={{ width: 80, height: 80 }}
-                        {...stringAvatar(review.sender.name)}
-                     />
-                  ) : (
-                     <Avatar
+                  <Avatar
                         variant="rounded"
                         alt=""
                         src={require('@/assets/images/avatar.svg').default}
                         sx={{ width: 80, height: 80 }}
                      />
-                  )}
                   <Box sx={{ display: 'flex', flexDirection: 'column', ml: 2.5 }}>
                      <Rating name="read-only" value={review.rating} readOnly />
                      <Box sx={{ display: 'flex' }}>
                         <Typography sx={{ textTransform: 'uppercase', fontWeight: 500 }}>
-                           {review.sender.name || review.sender.username}{' '}
+                           "Peter"
                         </Typography>
                         <Typography color={'GrayText'}>
                            {' - '}
