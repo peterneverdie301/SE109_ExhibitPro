@@ -27,7 +27,7 @@ function AuthLayout(props) {
             <div className="auth__content-footer">
                <div className="footer__contact">
                   <p>Please do not hesitate to contact us</p>
-                  <a>contact@konsept.com</a>
+                  <a>ExhibitPro@gmail.com</a>
                </div>
             </div>
          </div>

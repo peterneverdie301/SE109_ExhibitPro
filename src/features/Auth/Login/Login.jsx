@@ -67,7 +67,7 @@ function Login() {
          </Backdrop>
 
          <div className="hello">
-            <h2>Bonjour!</h2>
+            <h2>ExhibitPro!</h2>
             <p>To connect to your account, enter your email address and password.</p>
          </div>
 

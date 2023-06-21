@@ -67,8 +67,8 @@ function ContactForm() {
             <div className="description-address">
                <div className="store-address-container">
                   <h4 className="title-store">STORE</h4>
-                  <a className="space-y-2 text-base text-konsept-gray" href="tel:+1123456789">
-                     +321 421 4331
+                  <a className="space-y-2 text-base text-konsept-gray" href="tel:+84 376891477">
+                     +376 891 477
                   </a>
                   <br />
                   <a
@@ -77,7 +77,7 @@ function ContactForm() {
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     1316 Birmingham Avenue.
+                     1316 Pham Van Dong.
                   </a>
                   <br />
                   <a
@@ -86,13 +86,13 @@ function ContactForm() {
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     Manchester City UK 38310
-                  </a>
+                     Phu Nhuan 7000000
+                  </a>  
                </div>
                <div className="store-address-container">
                   <h4 className="title-store">OFFICE</h4>
                   <a className="space-y-2 text-base text-konsept-gray" href="tel:+1123456789">
-                     +112 345 6789
+                     +84 376 891 477
                   </a>
                   <br />
                   <a
@@ -101,7 +101,7 @@ function ContactForm() {
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     1316 Abbot Kinney Blvd.
+                     1316 Nguyen Kiem.
                   </a>
                   <br />
                   <a
@@ -110,7 +110,7 @@ function ContactForm() {
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     Copenhagen CA 90291
+                     Ho Chi Minh 4700000
                   </a>
                </div>
             </div>

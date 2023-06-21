@@ -75,7 +75,7 @@ function Register() {
             <CircularProgress color="inherit" />
          </Backdrop>
          <div className="hello">
-            <h2>Bonjour!</h2>
+            <h2>ExhibitPro!</h2>
             <p>To connect to your account, enter your email address and your password </p>
          </div>
 
