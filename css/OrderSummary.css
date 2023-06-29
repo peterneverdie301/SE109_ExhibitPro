@@ -1,0 +1,26 @@
+.order-summary {
+  display: flex;
+}
+.order-summary .products {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 20px 0;
+}
+.order-summary .products .product-card {
+  display: flex;
+}
+.order-summary .products .product-card__image {
+  margin-right: 20px;
+}
+.order-summary .products .product-card img {
+  height: 130px;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.order-summary .products .product-card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}/*# sourceMappingURL=OrderSummary.css.map */

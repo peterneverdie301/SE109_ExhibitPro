@@ -1,0 +1,79 @@
+/*
+ * color text.
+ */
+/*
+  * color gray.
+  */
+/*
+  * color primary.
+  */
+/*
+  * color status.
+  */
+/*
+  * shadow.
+  */
+/*
+  * border radius.
+  */
+/*
+  * font.
+  */
+/*
+  * constant.
+  */
+/*
+ * Set default constant
+ */
+:root {
+  --z-index-header: 1000;
+  --transition-common: all 0.3s ease;
+  --height-image-common: 184px;
+  --height-side-bar-outline: 56px;
+  --height-header-default: 56px;
+  --height-header-lesson: 48px;
+  --width-right-bar: 352px;
+  --width-right-bar-transcript: 352px;
+  --width-side-bar-outline: 244px;
+  --width-side-bar-default: 330px;
+  --width-side-bar-lesson: 360px;
+  --width-content-page-max: 988px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-outlined {
+  background-color: transparent;
+  border: 1px solid black;
+  position: relative;
+  z-index: 1;
+}
+.btn-outlined:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(100% + 1px);
+  width: 0;
+  transition: all 0.4s ease;
+}
+.btn-outlined:hover {
+  color: white;
+}
+.btn-outlined:hover:before {
+  background-color: rgba(0, 0, 0, 0.8);
+  left: -1px;
+  width: calc(100% + 1px);
+}/*# sourceMappingURL=Button.css.map */

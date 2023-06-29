@@ -1,0 +1,26 @@
+.lastest-items {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.lastest-items__header {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.lastest-items__header p {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #8b8b8b;
+  margin-bottom: 12px;
+}
+.lastest-items__header h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 45px;
+  color: #1d1d1d;
+}/*# sourceMappingURL=LastestItems.css.map */

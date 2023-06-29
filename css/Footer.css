@@ -1,0 +1,15 @@
+.social-icon {
+  border: 1px solid rgb(139, 139, 139);
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.social-icon svg {
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  color: rgb(139, 139, 139);
+}
+.social-icon:hover svg {
+  color: rgba(0, 0, 0, 0.87);
+}/*# sourceMappingURL=Footer.css.map */

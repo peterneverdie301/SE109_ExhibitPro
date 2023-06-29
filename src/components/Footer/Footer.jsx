@@ -34,7 +34,7 @@ function Footer(_props) {
                            className="font-poppins text-base text-konsept-gray"
                            href=""
                         >
-                           Landscape painting
+                           Lansdcape painting
                         </a>
                      </li>
                      <li>

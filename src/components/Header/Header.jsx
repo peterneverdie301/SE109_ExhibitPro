@@ -28,7 +28,7 @@ const navItems = [
       route: path.home
    },
    {
-      label: 'Products',
+      label: 'Exhibition',
       route: path.products
    },
    {

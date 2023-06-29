@@ -1,0 +1,22 @@
+.payment-method .MuiFormGroup-root {
+  margin: 20px 0 0 15px !important;
+}
+.payment-method .MuiRadio-root:hover {
+  background-color: unset;
+}
+.payment-method .payment {
+  border-radius: 12px;
+  height: 68px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+}
+.payment-method .payment:hover {
+  border: 1px solid #dbdbdb;
+}
+.payment-method .payment-active {
+  border: 1px solid #65627a;
+}
+.payment-method .payment-active:hover {
+  border: 1px solid #65627a;
+}/*# sourceMappingURL=PaymentMethod.css.map */

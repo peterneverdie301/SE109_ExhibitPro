@@ -49,7 +49,7 @@ function FilterByCategory({ categories, filters }) {
 
    return (
       <div className="filter-by-category">
-         <h4>Categories</h4>
+         <h4>Exibition Now</h4>
          <ul className="categories">{renderCategories()}</ul>
       </div>
    )

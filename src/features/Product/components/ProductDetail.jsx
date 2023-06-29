@@ -77,7 +77,7 @@ function ProductDetail(props) {
 
             <div className="product-detail__meta">
                <span className="product-detail__categories">
-                  <span className="product-detail__meta-label">Categories: </span>
+                  <span className="product-detail__meta-label">Exhibition: </span>
                   <span className="product-detail__meta-value">
                      {product.categories.map((cate, idx) => (
                         <span key={cate}>
